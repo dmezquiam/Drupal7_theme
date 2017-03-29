@@ -1,0 +1,54 @@
+name = Portal
+description = Tema para el portal de la Facultad 1.
+package = Core
+version = VERSION
+core = 7.x
+
+;stylesheets[all][] = css/layout.css
+stylesheets[all][] = css/style.css
+;stylesheets[all][] = css/colors.css
+;stylesheets[print][] = css/print.css
+
+regions[search_area] = Search area
+regions[highlighted] = Highlighted
+regions[principal] = Noticia Principal
+regions[secundarias] = Noticias Secundarias
+regions[banner] = Banner
+
+regions[avisos] = Avisos
+regions[efemerides] = Actividades y Efemérides
+regions[comedor] = Menú del Comedor
+
+regions[columnas_header] = Columnas Temáticas Header
+regions[columnas_body] = Columnas Temáticas Body
+
+regions[objetos] = Objetos Perdidos
+regions[cumples] = Cumples de Hoy
+regions[secciones] = Secciones Destacadas
+
+regions[content] = Content
+regions[content_bloques] = Bloques de Contenido
+
+regions[ultimo] = Lo Último en Galería
+regions[galeria] = Galería de Imágenes
+regions[video] = Video Portada
+
+regions[footer_first] = Footer First
+regions[footer_second] = Footer Second
+regions[footer_third] = Footer Third
+regions[footer_forth] = Footer Forth
+regions[footer_fifth] = Footer Fifth
+regions[footer] = Footer
+regions[help] = Help
+regions[page_top] = Page top
+regions[page_bottom] = Page bottom
+
+settings[breadcrumb_display]= 1
+;settings[slideshow_display]= 1
+;settings[slideshow_effect]='scrollHorz'
+;settings[slideshow_effect_time]='10'
+
+; Information added by drupal.org packaging script on 2012-05-02
+version = "7.14"
+project = "drupal"
+datestamp = "1335997555"
